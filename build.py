@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent
 CSV = ROOT / "data" / "presidents.csv"
 
 DATE_COLS = ["date_of_birth", "date_of_death"]
+INT_COLS = ["number", "term_start", "term_end", "age_at_inauguration", "age_at_death"]
 EXPECTED_COLUMNS = [
     "number", "name", "party", "term_start", "term_end", "terms",
     "birth_state", "date_of_birth", "age_at_inauguration",
@@ -38,6 +39,8 @@ def load_df(csv_path=CSV) -> pd.DataFrame:
     df = pd.read_csv(csv_path)
     for col in DATE_COLS:
         df[col] = pd.to_datetime(df[col], format="%Y-%m-%d", errors="coerce")
+    for col in INT_COLS:
+        df[col] = df[col].astype("Int64")
     return df
 
 
