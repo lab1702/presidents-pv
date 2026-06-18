@@ -2,7 +2,6 @@
 pandas
 pillow
 httpx
-# pview is installed editable from /home/lab/tmp/pview:
-#   pip install -e /home/lab/tmp/pview
+pview @ git+https://github.com/lab1702/pview.git
 # Dev
 pytest
