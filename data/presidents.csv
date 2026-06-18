@@ -1,0 +1,46 @@
+number,name,party,term_start,term_end,terms,birth_state,date_of_birth,age_at_inauguration,date_of_death,age_at_death,living,image
+1,George Washington,Unaffiliated,1789,1797,1789–1797,Virginia,1732-02-22,57,1799-12-14,67,No,images/01_washington.jpg
+2,John Adams,Federalist,1797,1801,1797–1801,Massachusetts,1735-10-30,61,1826-07-04,90,No,images/02_adams.jpg
+3,Thomas Jefferson,Democratic-Republican,1801,1809,1801–1809,Virginia,1743-04-13,57,1826-07-04,83,No,images/03_jefferson.jpg
+4,James Madison,Democratic-Republican,1809,1817,1809–1817,Virginia,1751-03-16,57,1836-06-28,85,No,images/04_madison.jpg
+5,James Monroe,Democratic-Republican,1817,1825,1817–1825,Virginia,1758-04-28,58,1831-07-04,73,No,images/05_monroe.jpg
+6,John Quincy Adams,Democratic-Republican,1825,1829,1825–1829,Massachusetts,1767-07-11,57,1848-02-23,80,No,images/06_adams.jpg
+7,Andrew Jackson,Democratic,1829,1837,1829–1837,South Carolina,1767-03-15,61,1845-06-08,78,No,images/07_jackson.jpg
+8,Martin Van Buren,Democratic,1837,1841,1837–1841,New York,1782-12-05,54,1862-07-24,79,No,images/08_van-buren.jpg
+9,William Henry Harrison,Whig,1841,1841,1841,Virginia,1773-02-09,68,1841-04-04,68,No,images/09_harrison.jpg
+10,John Tyler,Whig,1841,1845,1841–1845,Virginia,1790-03-29,51,1862-01-18,71,No,images/10_tyler.jpg
+11,James K. Polk,Democratic,1845,1849,1845–1849,North Carolina,1795-11-02,49,1849-06-15,53,No,images/11_polk.jpg
+12,Zachary Taylor,Whig,1849,1850,1849–1850,Virginia,1784-11-24,64,1850-07-09,65,No,images/12_taylor.jpg
+13,Millard Fillmore,Whig,1850,1853,1850–1853,New York,1800-01-07,50,1874-03-08,74,No,images/13_fillmore.jpg
+14,Franklin Pierce,Democratic,1853,1857,1853–1857,New Hampshire,1804-11-23,48,1869-10-08,64,No,images/14_pierce.jpg
+15,James Buchanan,Democratic,1857,1861,1857–1861,Pennsylvania,1791-04-23,65,1868-06-01,77,No,images/15_buchanan.jpg
+16,Abraham Lincoln,Republican,1861,1865,1861–1865,Kentucky,1809-02-12,52,1865-04-15,56,No,images/16_lincoln.jpg
+17,Andrew Johnson,National Union,1865,1869,1865–1869,North Carolina,1808-12-29,56,1875-07-31,66,No,images/17_johnson.jpg
+18,Ulysses S. Grant,Republican,1869,1877,1869–1877,Ohio,1822-04-27,46,1885-07-23,63,No,images/18_grant.jpg
+19,Rutherford B. Hayes,Republican,1877,1881,1877–1881,Ohio,1822-10-04,54,1893-01-17,70,No,images/19_hayes.jpg
+20,James A. Garfield,Republican,1881,1881,1881,Ohio,1831-11-19,49,1881-09-19,49,No,images/20_garfield.jpg
+21,Chester A. Arthur,Republican,1881,1885,1881–1885,Vermont,1829-10-05,51,1886-11-18,57,No,images/21_arthur.jpg
+22,Grover Cleveland,Democratic,1885,1897,"1885–1889, 1893–1897",New Jersey,1837-03-18,47,1908-06-24,71,No,images/22_cleveland.jpg
+23,Benjamin Harrison,Republican,1889,1893,1889–1893,Ohio,1833-08-20,55,1901-03-13,67,No,images/23_harrison.jpg
+25,William McKinley,Republican,1897,1901,1897–1901,Ohio,1843-01-29,54,1901-09-14,58,No,images/25_mckinley.jpg
+26,Theodore Roosevelt,Republican,1901,1909,1901–1909,New York,1858-10-27,42,1919-01-06,60,No,images/26_roosevelt.jpg
+27,William Howard Taft,Republican,1909,1913,1909–1913,Ohio,1857-09-15,51,1930-03-08,72,No,images/27_taft.jpg
+28,Woodrow Wilson,Democratic,1913,1921,1913–1921,Virginia,1856-12-28,56,1924-02-03,67,No,images/28_wilson.jpg
+29,Warren G. Harding,Republican,1921,1923,1921–1923,Ohio,1865-11-02,55,1923-08-02,57,No,images/29_harding.jpg
+30,Calvin Coolidge,Republican,1923,1929,1923–1929,Vermont,1872-07-04,51,1933-01-05,60,No,images/30_coolidge.jpg
+31,Herbert Hoover,Republican,1929,1933,1929–1933,Iowa,1874-08-10,54,1964-10-20,90,No,images/31_hoover.jpg
+32,Franklin D. Roosevelt,Democratic,1933,1945,1933–1945,New York,1882-01-30,51,1945-04-12,63,No,images/32_roosevelt.jpg
+33,Harry S. Truman,Democratic,1945,1953,1945–1953,Missouri,1884-05-08,60,1972-12-26,88,No,images/33_truman.jpg
+34,Dwight D. Eisenhower,Republican,1953,1961,1953–1961,Texas,1890-10-14,62,1969-03-28,78,No,images/34_eisenhower.jpg
+35,John F. Kennedy,Democratic,1961,1963,1961–1963,Massachusetts,1917-05-29,43,1963-11-22,46,No,images/35_kennedy.jpg
+36,Lyndon B. Johnson,Democratic,1963,1969,1963–1969,Texas,1908-08-27,55,1973-01-22,64,No,images/36_johnson.jpg
+37,Richard Nixon,Republican,1969,1974,1969–1974,California,1913-01-09,56,1994-04-22,81,No,images/37_nixon.jpg
+38,Gerald Ford,Republican,1974,1977,1974–1977,Nebraska,1913-07-14,61,2006-12-26,93,No,images/38_ford.jpg
+39,Jimmy Carter,Democratic,1977,1981,1977–1981,Georgia,1924-10-01,52,2024-12-29,100,No,images/39_carter.jpg
+40,Ronald Reagan,Republican,1981,1989,1981–1989,Illinois,1911-02-06,69,2004-06-05,93,No,images/40_reagan.jpg
+41,George H. W. Bush,Republican,1989,1993,1989–1993,Massachusetts,1924-06-12,64,2018-11-30,94,No,images/41_bush.jpg
+42,Bill Clinton,Democratic,1993,2001,1993–2001,Arkansas,1946-08-19,46,,,Yes,images/42_clinton.jpg
+43,George W. Bush,Republican,2001,2009,2001–2009,Connecticut,1946-07-06,54,,,Yes,images/43_bush.jpg
+44,Barack Obama,Democratic,2009,2017,2009–2017,Hawaii,1961-08-04,47,,,Yes,images/44_obama.jpg
+45,Donald Trump,Republican,2017,,"2017–2021, 2025–present",New York,1946-06-14,70,,,Yes,images/45_trump.jpg
+46,Joe Biden,Democratic,2021,2025,2021–2025,Pennsylvania,1942-11-20,78,,,Yes,images/46_biden.jpg
