@@ -14,8 +14,7 @@ date of birth, presidency order, lifespan, and more.
 ## Rebuild from scratch
 
 ```bash
-pip install -e /home/lab/tmp/pview      # installs pview + pandas/pillow/httpx
-pip install -r requirements.txt
+pip install -r requirements.txt         # installs pview (from GitHub) + pandas/pillow/httpx
 python scrape_images.py                 # populates images/ (skips existing)
 python build.py                         # writes presidents.html
 ```
