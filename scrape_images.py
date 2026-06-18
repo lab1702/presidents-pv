@@ -23,7 +23,10 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (presidents-pview image scraper; contact l
 
 _IMG_TAG_RE = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
 _ATTR_RE = re.compile(r'([\w-]+)\s*=\s*"([^"]*)"')
-_PORTRAIT_RE = re.compile(r"/public/people/([^/?\"]+)\.(?:jpe?g|png)", re.IGNORECASE)
+_ANCHOR_RE = re.compile(
+    r'<a\b[^>]*\bhref="/people/president/([^"]+)"[^>]*>(.*?)</a>',
+    re.IGNORECASE | re.DOTALL,
+)
 
 # Explicit stem overrides for rows whose UCSB slug is hard to fuzzy-match.
 # number -> stem. Fill in after inspecting images/_manifest.csv if needed.
@@ -36,17 +39,24 @@ OVERRIDES: dict[int, str] = {
 
 
 def parse_portraits(html: str) -> dict[str, dict]:
-    """Map image stem -> {"url", "name"} for every president portrait on the page."""
+    """Map href-slug -> {"url", "name"} for every president portrait on the page.
+
+    Iterates over <a href="/people/president/SLUG">...</a> anchors and extracts
+    the first <img> inside each.  Keying by href slug (not image filename) correctly
+    handles presidents like Carter and Reagan whose images live under paths other
+    than /public/people/.
+    """
     out: dict[str, dict] = {}
-    for tag in _IMG_TAG_RE.findall(html):
-        attrs = dict(_ATTR_RE.findall(tag))
-        src = attrs.get("src", "")
-        m = _PORTRAIT_RE.search(src)
-        if not m:
+    for slug, inner in _ANCHOR_RE.findall(html):
+        img_match = _IMG_TAG_RE.search(inner)
+        if not img_match:
             continue
-        stem = m.group(1).lower()
+        attrs = dict(_ATTR_RE.findall(img_match.group(0)))
+        src = attrs.get("src", "")
+        if not src:
+            continue
         url = src if src.startswith("http") else BASE + src
-        out[stem] = {"url": url, "name": attrs.get("alt", "").strip()}
+        out[slug] = {"url": url, "name": attrs.get("alt", "").strip()}
     return out
 
 
