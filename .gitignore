@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .cache/
+build_out/
+images/_manifest.csv
+.pytest_cache/

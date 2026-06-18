@@ -1,0 +1,8 @@
+# Runtime
+pandas
+pillow
+httpx
+# pview is installed editable from /home/lab/tmp/pview:
+#   pip install -e /home/lab/tmp/pview
+# Dev
+pytest
