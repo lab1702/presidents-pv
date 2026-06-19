@@ -1,5 +1,7 @@
 # US Presidents PivotViewer
 
+![US Presidents PivotViewer](example1.png)
+
 An interactive [pview](https://github.com/lab1702/pview) collection viewer of US
 presidents. Sort, group, and filter by party, birth state, age at inauguration,
 date of birth, presidency order, lifespan, and more.
